@@ -7,6 +7,7 @@ body {
   background-color: black;
   opacity: .9;
   text-align: center;
+  width: 1200px;
 }
 
 /* header section */
@@ -15,18 +16,20 @@ header {
   display: flex;
   position: fixed;
   height: 69px;
-  width: 100%;
+  width: 1200px;
   border-bottom: 1px solid seashell;
   background-color: black;
   top: 0px;
   left: 0px;
 }
 
-.nav {
+p .nav {
   text-decoration: underline;
-  margin-top: auto;
-  margin-bottom: auto;
+  /*margin-top: auto;
+  margin-bottom: auto;*/
   justify-content: flex-end;
+  align-items: center;
+
 }
 a {
   color: seashell;
@@ -70,12 +73,18 @@ margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 .tea img {
   height: 200px;
   width: 300px;
   padding: 10px;
+}
+
+.body.middle {
+width: 1200px;
 }
 
 .body.bottom {
