@@ -23,14 +23,19 @@ header {
   left: 0px;
 }
 
-p .nav {
+.nav {
+  display: flex;
   text-decoration: underline;
   /*margin-top: auto;
   margin-bottom: auto;*/
   justify-content: flex-end;
   align-items: center;
-
 }
+
+span {
+  justify-content: flex-end;
+}
+
 a {
   color: seashell;
 }
